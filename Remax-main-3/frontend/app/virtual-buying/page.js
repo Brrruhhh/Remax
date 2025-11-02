@@ -83,7 +83,7 @@ export default function VirtualBuying() {
           </div>
 
           <div className=" max-w-6xl">
-            <h1 className="text-4xl font-semibold text-[#00458b] mb-6 leading-tight">
+            <h1 className="text-4xl font-semibold text-[#1A3668] mb-6 leading-tight">
               Welcome to REMAX’s Virtual Home Buying Guide!
             </h1>
             <p className="text-base text-gray-700 leading-relaxed">
@@ -97,7 +97,7 @@ export default function VirtualBuying() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className=" mb-8">
-            <h2 className="text-3xl font-semibold text-remax-blue mb-6">
+            <h2 className="text-3xl font-semibold text-[#1A3668] mb-6">
               Why Choose Virtual Home Buying?
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl">
@@ -122,7 +122,7 @@ export default function VirtualBuying() {
       <section className="py-16 bg-gray">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-left mb-16">
-            <h2 className="text-3xl font-semibold text-remax-blue mb-6">
+            <h2 className="text-3xl font-semibold text-[#1A3668] mb-6">
               Virtual Home Buying, Step By Step
             </h2>
           </div>
@@ -161,7 +161,7 @@ export default function VirtualBuying() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl font-semibold text-remax-blue mb-6">
+              <h2 className="text-3xl font-semibold text-[#1A3668] mb-6">
                 Cutting-Edge Technology Meets Personal Service
               </h2>
               <p className="text-md text-gray-600 mb-2 leading-relaxed">
@@ -172,7 +172,7 @@ export default function VirtualBuying() {
               </p>
               <div className="space-y-2">
                 <div className="flex items-start gap-2 p-4 bg-blue-50 rounded-xl">
-                  <div className="w-10 h-10 bg-remax-blue rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-[#1A3668] rounded-full flex items-center justify-center flex-shrink-0">
                     <CheckCircle className="w-5 h-5 text-white" />
                   </div>
                   <div>
@@ -232,10 +232,10 @@ export default function VirtualBuying() {
             Connect with a trusted RE/MAX agent today and discover how easy it is to buy your dream home from anywhere in the world. Our experts are ready to guide you through every step of the process.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <button className="bg-remax-blue text-white px-6 py-2 font-semibold text-md">
+            <button className="bg-[#1A3668] text-white px-6 py-2 font-semibold text-md">
               FIND A RE/MAX AGENT
             </button>
-            <button className="border-2 bg-remax-blue text-white px-6 py-2 font-semibold text-md">
+            <button className="border-2 bg-[#1A3668] text-white px-6 py-2 font-semibold text-md">
               SCHEDULE A CONSULTATION
             </button>
           </div>

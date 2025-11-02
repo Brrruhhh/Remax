@@ -123,18 +123,18 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="px-4 py-2 text-gray-700 hover:text-remax-blue font-semibold transition-colors"
+                className="px-4 py-2 text-gray-700 font-semibold transition-all duration-200 rounded-lg hover:bg-blue-50 hover:text-gray-900"
                 aria-expanded={openMenu === "buy"}
               >
                 Buy
               </button>
               {openMenu === "buy" && (
-                <div className="absolute left-0 top-full mt-0 w-56 bg-white shadow-lg rounded-b-lg border-t-2 border-remax-red">
+                <div className="absolute left-0 top-full mt-3 w-56 bg-white shadow-xl rounded-lg border border-gray-400">
                   <ul className="py-2">
                     <li>
                       <Link
                         href="/property-search"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Property Search
                       </Link>
@@ -142,7 +142,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/buying-guide"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Buying Guide
                       </Link>
@@ -150,7 +150,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/virtual-buying"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Virtual Home Buying
                       </Link>
@@ -167,18 +167,18 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="px-4 py-2 text-gray-700 hover:text-remax-blue font-semibold transition-colors"
+                className="px-4 py-2 text-gray-700 font-semibold transition-all duration-200 rounded-lg hover:bg-blue-50 hover:text-gray-900"
                 aria-expanded={openMenu === "sell"}
               >
                 Sell
               </button>
               {openMenu === "sell" && (
-                <div className="absolute left-0 top-full mt-0 w-56 bg-white shadow-lg rounded-b-lg border-t-2 border-remax-red">
+                <div className="absolute left-0 top-full mt-3 w-56 bg-white shadow-xl rounded-lg border border-gray-400">
                   <ul className="py-2">
                     <li>
                       <Link
                         href="/selling-guide"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Selling Guide
                       </Link>
@@ -195,18 +195,18 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="px-4 py-2 text-gray-700 hover:text-remax-blue font-semibold transition-colors"
+                className="px-4 py-2 text-gray-700 font-semibold transition-all duration-200 rounded-lg hover:bg-blue-50 hover:text-gray-900"
                 aria-expanded={openMenu === "rent"}
               >
                 Rent
               </button>
               {openMenu === "rent" && (
-                <div className="absolute left-0 top-full mt-0 w-56 bg-white shadow-lg rounded-b-lg border-t-2 border-remax-red">
+                <div className="absolute left-0 top-full mt-3 w-56 bg-white shadow-xl rounded-lg border border-gray-400">
                   <ul className="py-2">
                     <li>
                       <Link
                         href="/rental-search"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Rental Search
                       </Link>
@@ -214,7 +214,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/rental-agent"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Find a Rental Agent
                       </Link>
@@ -222,7 +222,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/rental-guide"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Rental Guide
                       </Link>
@@ -239,25 +239,25 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="px-4 py-2 text-gray-700 hover:text-remax-blue font-semibold transition-colors"
+                className="px-4 py-2 text-gray-700 font-semibold transition-all duration-200 rounded-lg hover:bg-blue-50 hover:text-gray-900"
                 aria-expanded={openMenu === "agents"}
               >
                 Agents
               </button>
               {openMenu === "agents" && (
-                <div className="absolute left-0 top-full mt-0 w-64 bg-white shadow-lg rounded-b-lg border-t-2 border-remax-red">
+                <div className="absolute left-0 top-full mt-3 w-64 bg-white shadow-xl rounded-lg border border-gray-400">
                   <ul className="py-2">
                     <li>
                       <Link
                         href="/find-agent"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Agent Search
                       </Link>
                     </li>
                   </ul>
                   <hr className="my-2 border-gray-200" />
-                  <div className="px-6 py-4 bg-gray-50">
+                  <div className="px-6 py-4 bg-gray-50 rounded-b-lg">
                     <p className="text-sm text-gray-700 mb-3">
                       We have the tools and the experience to lead you to
                       success!
@@ -287,18 +287,18 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="px-4 py-2 text-gray-700 hover:text-remax-blue font-semibold transition-colors"
+                className="px-4 py-2 text-gray-700 font-semibold transition-all duration-200 rounded-lg hover:bg-blue-50 hover:text-gray-900"
                 aria-expanded={openMenu === "more"}
               >
                 More
               </button>
               {openMenu === "more" && (
-                <div className="absolute left-0 top-full mt-0 w-64 bg-white shadow-lg rounded-b-lg border-t-2 border-remax-red">
+                <div className="absolute left-0 top-full mt-2 w-64 bg-white shadow-xl rounded-lg border border-gray-200">
                   <ul className="py-2">
                     <li>
                       <Link
                         href="/luxury"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Luxury
                       </Link>
@@ -306,7 +306,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/global"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Global
                       </Link>
@@ -314,7 +314,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/commercial"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Commercial
                       </Link>
@@ -322,7 +322,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/articles-advice"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Articles and Advice
                       </Link>
@@ -330,7 +330,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/about-us"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         About Us
                       </Link>
@@ -338,7 +338,7 @@ export default function Header() {
                     <li>
                       <Link
                         href="/contact-us"
-                        className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-remax-blue transition-colors"
+                        className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-remax-blue transition-colors"
                       >
                         Contact Us
                       </Link>
@@ -432,7 +432,7 @@ export default function Header() {
               ) : (
                 <>
                   <Link href="/login">
-                    <button className="text-remax-blue hover:text-remax-dark-blue font-semibold px-4 py-2 rounded-lg hover:bg-gray-50 transition-all text-sm">
+                    <button className="text-remax-blue hover:text-remax-dark-blue font-semibold px-4 py-2 rounded-lg hover:bg-blue-50 transition-all text-sm">
                       Log In
                     </button>
                   </Link>
@@ -454,7 +454,7 @@ export default function Header() {
               <div key={key}>
                 <button
                   onClick={() => toggleMobileSubmenu(key)}
-                  className="w-full flex items-center justify-between text-left text-gray-900 font-semibold py-3"
+                  className="w-full flex items-center justify-between text-left text-gray-900 font-semibold py-3 hover:bg-blue-50 rounded-lg px-2 transition-colors"
                 >
                   <span>{section.title}</span>
                   <span
@@ -472,7 +472,7 @@ export default function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={handleMobileLinkClick}
-                        className="block text-sm text-gray-600 py-1"
+                        className="block text-sm text-gray-600 py-1 hover:text-remax-blue transition-colors"
                       >
                         {item.title}
                       </Link>
@@ -497,7 +497,7 @@ export default function Header() {
                   <Link
                     href="/account"
                     onClick={handleMobileLinkClick}
-                    className="flex items-center text-sm text-gray-700 py-2"
+                    className="flex items-center text-sm text-gray-700 py-2 hover:text-remax-blue transition-colors"
                   >
                     <User className="w-4 h-4 mr-3" />
                     Your Account
@@ -506,7 +506,7 @@ export default function Header() {
                   <Link
                     href="/account/settings"
                     onClick={handleMobileLinkClick}
-                    className="flex items-center text-sm text-gray-700 py-2"
+                    className="flex items-center text-sm text-gray-700 py-2 hover:text-remax-blue transition-colors"
                   >
                     <Settings className="w-4 h-4 mr-3" />
                     Account Settings
@@ -515,7 +515,7 @@ export default function Header() {
                   <Link
                     href="/account/goals"
                     onClick={handleMobileLinkClick}
-                    className="flex items-center text-sm text-gray-700 py-2"
+                    className="flex items-center text-sm text-gray-700 py-2 hover:text-remax-blue transition-colors"
                   >
                     <Target className="w-4 h-4 mr-3" />
                     My Goals
@@ -524,7 +524,7 @@ export default function Header() {
                   <Link
                     href="/account/searches"
                     onClick={handleMobileLinkClick}
-                    className="flex items-center text-sm text-gray-700 py-2"
+                    className="flex items-center text-sm text-gray-700 py-2 hover:text-remax-blue transition-colors"
                   >
                     <Search className="w-4 h-4 mr-3" />
                     Saved Searches
@@ -533,7 +533,7 @@ export default function Header() {
                   <Link
                     href="/account/favorites"
                     onClick={handleMobileLinkClick}
-                    className="flex items-center text-sm text-gray-700 py-2"
+                    className="flex items-center text-sm text-gray-700 py-2 hover:text-remax-blue transition-colors"
                   >
                     <Heart className="w-4 h-4 mr-3" />
                     My Favourites
@@ -541,7 +541,7 @@ export default function Header() {
                   
                   <button
                     onClick={handleLogout}
-                    className="flex items-center w-full text-sm text-red-600 py-2"
+                    className="flex items-center w-full text-sm text-red-600 py-2 hover:text-red-700 transition-colors"
                   >
                     <LogOut className="w-4 h-4 mr-3" />
                     Logout
@@ -552,14 +552,14 @@ export default function Header() {
                   <Link
                     href="/login"
                     onClick={handleMobileLinkClick}
-                    className="block text-sm text-gray-700"
+                    className="block text-sm text-gray-700 hover:text-remax-blue transition-colors"
                   >
                     Log In
                   </Link>
                   <Link
                     href="/sign-up"
                     onClick={handleMobileLinkClick}
-                    className="inline-flex items-center justify-center w-full bg-[#00458b] text-white px-4 py-2 rounded-lg text-sm font-semibold"
+                    className="inline-flex items-center justify-center w-full bg-[#00458b] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-remax-dark-blue transition-colors"
                   >
                     Sign Up
                   </Link>

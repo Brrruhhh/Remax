@@ -113,7 +113,7 @@ export default function BuyingGuide() {
         <div className="max-w-7xl mx-auto px-6" >
           <div className="p-8" style={{ backgroundColor: '#f5f6f9' }}>
             {/* Heading */}
-            <h2 className="text-3xl font-bold text-remax-blue mb-3">
+            <h2 className="text-3xl font-bold text-[#1A3668] mb-3">
               Buyer's Guide
             </h2>
             <p className="text-gray-600 mb-4">
@@ -200,7 +200,7 @@ export default function BuyingGuide() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-left mb-16">
-            <h2 className="text-2xl font-semibold text-remax-blue">
+            <h2 className="text-2xl font-semibold text-[#1A3668]">
               Buying Property in UAE, Step by Step
             </h2>
           </div>
@@ -273,7 +273,7 @@ export default function BuyingGuide() {
       <div className="flex flex-col text-center justify-center items-center sm:flex-row gap-4">
         <button
           onClick={handleDownloadGuide}
-          className="bg-remax-blue text-white px-6 py-4 rounded-md text-md font-semibold flex items-center gap-3"
+          className="bg-[#1A3668] text-white px-6 py-4 rounded-md text-md font-semibold flex items-center gap-3"
         >
           <Download className="w-5 h-5" />
           Download the Complete Guide
@@ -286,7 +286,7 @@ export default function BuyingGuide() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-left mb-8">
 
-            <h2 className="text-2xl font-semibold text-remax-blue">
+            <h2 className="text-2xl font-semibold text-[#1A3668]">
               Top Tips for Working With Your Buying Agent
             </h2>
             <p className="text-xm text-gray-600 max-w-3xl mt-4">
@@ -306,11 +306,11 @@ export default function BuyingGuide() {
                   alt="Find the Right Agent"
                   className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-remax-blue/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1A3668] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-4">
                 <div className="flex gap-3 mb-4">
-                  <h3 className="font-semibold text-remax-blue" style={{ fontSize: '20px' }}>
+                  <h3 className="font-semibold text-[#1A3668]" style={{ fontSize: '20px' }}>
                     Find the Right Agent
                   </h3>
                 </div>
@@ -435,7 +435,7 @@ export default function BuyingGuide() {
 
             {/* CTA Button */}
             <div className="flex justify-center">
-              <button className="bg-[#00458b] text-white px-8 py-3 rounded font-semibold hover:bg-[#003a75] transition-all duration-300 uppercase text-sm">
+              <button className="bg-[#1A3668] text-white px-8 py-3 rounded font-semibold hover:bg-[#003a75] transition-all duration-300 uppercase text-sm">
                 Browse Listings
               </button>
             </div>
